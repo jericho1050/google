@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>advanced-search</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/Navbar-Right-Links-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse d-xl-flex show" id="navcol-2" style="padding-left:0px;"><img class="img-fluid justify-content-start" height="41" src="static/google_logo.png" style="padding-top:0px;" width="69">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><span style="color:rgb(0, 117, 255);">Search</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h5 style="margin-left: 21px;margin-top: 13px;"><span style="color: rgb(255, 0, 0);">Advanced Search</span></h5>
+    <hr>
+    <div style="margin-left: 25px;"><span>Find pages with...</span></div>
+    <form action="https://www.google.com/search" style="margin-top:24px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div><span style="font-size:13px;">all these words: </span></div>
+                </div>
+                <div class="col"><input class="form-control form-control form-control form-control form-control form-control" type="text" autofocus="" name="as_q" placeholder="Type the important words, e.g., tricolor rat terrier."></div>
+            </div><br>
+            <div class="row">
+                <div class="col-2">
+                    <div><span style="font-size:13px;">this exact word or phrase: </span></div>
+                </div>
+                <div class="col"><input class="form-control form-control form-control form-control form-control form-control" type="text" autofocus="" name="as_epq" placeholder="Put exact words in quotes, e.g., &quot;rat terrier&quot;"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-2">
+                    <div><span style="font-size:13px;">any of these words: </span></div>
+                </div>
+                <div class="col"><input class="form-control form-control form-control form-control form-control form-control" type="text" autofocus="" name="as_oq" placeholder="Type OR between all the words you want, e.g., miniature OR standard"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-2">
+                    <div><span style="font-size:13px;">none of these words: </span></div>
+                </div>
+                <div class="col"><input class="form-control form-control form-control form-control form-control form-control" type="text" autofocus="" name="as_eq" placeholder="Put a minus sign just before words you don't want, e.g., -rodent, -&quot;Jack Rusell&quot;"></div>
+            </div><button class="btn btn-primary d-flex float-end" type="submit" style="margin-top:25px;">Advanced Search</button>
+        </div>
+    </form>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
